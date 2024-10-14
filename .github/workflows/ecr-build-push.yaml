@@ -262,7 +262,7 @@ jobs:
     - continue-on-error: true
       id: login-ecr
       name: Login to Amazon ECR
-      uses: aws-actions/amazon-ecr-login@v1
+      uses: aws-actions/amazon-ecr-login@v2
       with:
         registries: ${{ env.ORIGIN_ID }}
     - continue-on-error: true
