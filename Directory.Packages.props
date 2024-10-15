@@ -12,7 +12,7 @@
     <PackageVersion Include="Microsoft.Bcl.AsyncInterfaces" Version="6.0.0" />
     <PackageVersion Include="Microsoft.Bcl.HashCode" Version="1.1.1" />
     <PackageVersion Include="System.Collections.Immutable" Version="6.0.0" />
-    <PackageVersion Include="System.Diagnostics.DiagnosticSource" Version="6.0.0" />
+    <PackageVersion Include="System.Diagnostics.DiagnosticSource" Version="6.0.1" />
     <PackageVersion Include="OpenTelemetry.API" Version="1.1.0" />
 
     <PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="4.0.1" />
@@ -38,7 +38,7 @@
 
     <!-- Benchmarks -->
     <PackageVersion Include="BenchmarkDotNet" Version="0.13.1" />
-    <PackageVersion Include="Microsoft.Data.SqlClient" Version="4.0.0" />
+    <PackageVersion Include="Microsoft.Data.SqlClient" Version="5.2.2" />
     <PackageVersion Include="BenchmarkDotNet.Diagnostics.Windows" Version="0.13.1" />
   </ItemGroup>
 </Project>
