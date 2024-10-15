@@ -291,7 +291,7 @@ jobs:
       if: ${{ inputs.eslint_added_files != '' || inputs.eslint_modified_files != ''
         }}
       name: Run eslint on packages and stories
-      uses: reviewdog/action-eslint@v1.31.0
+      uses: reviewdog/action-eslint@v1.32.0
       with:
         eslint_flags: ${{ inputs.eslint_added_files }} ${{ inputs.eslint_modified_files
           }}
