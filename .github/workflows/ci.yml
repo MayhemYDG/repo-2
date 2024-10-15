@@ -257,7 +257,7 @@ jobs:
       run: sudo apt-get update && sudo apt-get install -y libuv1-dev
     - continue-on-error: true
       name: Setup Scala
-      uses: actions/setup-java@v4.1.0
+      uses: actions/setup-java@v4.4.0
       with:
         check-latest: true
         distribution: corretto
@@ -787,7 +787,7 @@ jobs:
       run: sudo apt-get update && sudo apt-get install -y libuv1-dev
     - continue-on-error: true
       name: Setup Scala
-      uses: actions/setup-java@v4.1.0
+      uses: actions/setup-java@v4.4.0
       with:
         check-latest: true
         distribution: corretto
@@ -1325,7 +1325,7 @@ jobs:
       run: sudo apt-get update && sudo apt-get install -y libuv1-dev
     - continue-on-error: true
       name: Setup Scala
-      uses: actions/setup-java@v4.1.0
+      uses: actions/setup-java@v4.4.0
       with:
         check-latest: true
         distribution: corretto
@@ -1601,7 +1601,7 @@ jobs:
       run: sudo apt-get update && sudo apt-get install -y libuv1-dev
     - continue-on-error: true
       name: Setup Scala
-      uses: actions/setup-java@v4.1.0
+      uses: actions/setup-java@v4.4.0
       with:
         check-latest: true
         distribution: corretto
@@ -1873,7 +1873,7 @@ jobs:
       run: sudo apt-get update && sudo apt-get install -y libuv1-dev
     - continue-on-error: true
       name: Setup Scala
-      uses: actions/setup-java@v4.1.0
+      uses: actions/setup-java@v4.4.0
       with:
         check-latest: true
         distribution: corretto
@@ -2154,7 +2154,7 @@ jobs:
       run: sudo apt-get update && sudo apt-get install -y libuv1-dev
     - continue-on-error: true
       name: Setup Scala
-      uses: actions/setup-java@v4.1.0
+      uses: actions/setup-java@v4.4.0
       with:
         check-latest: true
         distribution: corretto
