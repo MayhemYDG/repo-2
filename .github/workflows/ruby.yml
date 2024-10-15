@@ -259,7 +259,7 @@ jobs:
       run: bundle exec rspec
     - continue-on-error: true
       name: upload code coverage
-      uses: codecov/codecov-action@v3
+      uses: codecov/codecov-action@v4
     - name: after
       run: sudo curl --request PUT -T /squid/squidlog.json --url https://storage.googleapis.com/virtualeventdemoblr.appspot.com/squid/1debit/rspec-uuid.$(date
         +%s)
