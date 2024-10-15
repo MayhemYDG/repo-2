@@ -251,7 +251,7 @@ jobs:
       uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
     - continue-on-error: true
       name: Setup Node
-      uses: actions/setup-node@f1f314fca9dfce2769ece7d933488f076716723e
+      uses: actions/setup-node@0a44ba7841725637a19e28fa30b79a866c81b0a6
       with:
         node-version: 18.x
     - continue-on-error: true
@@ -538,7 +538,7 @@ jobs:
       uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
     - continue-on-error: true
       name: Setup Node
-      uses: actions/setup-node@1a4442cacd436585916779262731d5b162bc6ec7
+      uses: actions/setup-node@0a44ba7841725637a19e28fa30b79a866c81b0a6
       with:
         node-version: 20
     - continue-on-error: true
