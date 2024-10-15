@@ -278,7 +278,7 @@ jobs:
       if: ${{ inputs.styles_added_files != '' || inputs.styles_modified_files != ''
         }}
       name: Lint component styles
-      uses: reviewdog/action-stylelint@v1.28.0
+      uses: reviewdog/action-stylelint@v1.29.0
       with:
         fail_on_error: true
         filter_mode: diff_context
