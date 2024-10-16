@@ -75,7 +75,7 @@ setup(
     install_requires=[
         "click==7.1.2",
         "skale.py==5.8dev3",
-        "yaspin==2.2.0",
+        "yaspin==3.1.0",
         "texttable==1.6.4",
         "pandas==1.5.1",
         "terminaltables==3.1.10",
