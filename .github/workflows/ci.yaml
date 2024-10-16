@@ -777,7 +777,7 @@ jobs:
       name: Install conntrack
       run: sudo apt-get install -y conntrack
     - continue-on-error: true
-      uses: medyagh/setup-minikube@v0.0.14
+      uses: medyagh/setup-minikube@v0.0.18
       with:
         driver: none
         kubernetes-version: ${{ matrix.kubernetes }}
