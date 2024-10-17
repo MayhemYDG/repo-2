@@ -249,7 +249,7 @@ jobs:
       uses: actions/checkout@v4.1.7
     - continue-on-error: true
       name: Validate Gradle Wrapper
-      uses: gradle-update/update-gradle-wrapper-action@v1.0.20
+      uses: gradle-update/update-gradle-wrapper-action@v2.0.0
       with:
         labels: gradlew,technical-debt
     - name: after
