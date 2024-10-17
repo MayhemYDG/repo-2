@@ -247,7 +247,7 @@ jobs:
 
         sudo sh -c ''echo 1 > /proc/sys/net/ipv4/ip_forward'''
     - continue-on-error: true
-      uses: mheap/github-action-required-labels@179af849240d834567e1a3d6dc781575eede757c
+      uses: mheap/github-action-required-labels@d25134c992b943fb6ad00c25ea00eb5988c0a9dd
       with:
         count: 1
         labels: change:feature,change:bugfix,change:refactor,change:chore,change:docs,change:other
@@ -501,7 +501,7 @@ jobs:
 
         sudo sh -c ''echo 1 > /proc/sys/net/ipv4/ip_forward'''
     - continue-on-error: true
-      uses: mheap/github-action-required-labels@179af849240d834567e1a3d6dc781575eede757c
+      uses: mheap/github-action-required-labels@d25134c992b943fb6ad00c25ea00eb5988c0a9dd
       with:
         count: 0
         labels: do-not-merge
@@ -755,7 +755,7 @@ jobs:
 
         sudo sh -c ''echo 1 > /proc/sys/net/ipv4/ip_forward'''
     - continue-on-error: true
-      uses: mheap/github-action-required-labels@179af849240d834567e1a3d6dc781575eede757c
+      uses: mheap/github-action-required-labels@d25134c992b943fb6ad00c25ea00eb5988c0a9dd
       with:
         count: 1
         labels: impact:users,impact:internal
@@ -1009,7 +1009,7 @@ jobs:
 
         sudo sh -c ''echo 1 > /proc/sys/net/ipv4/ip_forward'''
     - continue-on-error: true
-      uses: mheap/github-action-required-labels@179af849240d834567e1a3d6dc781575eede757c
+      uses: mheap/github-action-required-labels@d25134c992b943fb6ad00c25ea00eb5988c0a9dd
       with:
         count: 1
         labels: security-assessment-completed
