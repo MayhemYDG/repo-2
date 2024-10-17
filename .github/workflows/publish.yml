@@ -322,7 +322,7 @@ jobs:
       shell: bash
     - continue-on-error: true
       name: Run Trivy vulnerability scanner
-      uses: aquasecurity/trivy-action@f3d98514b056d8c71a3552e8328c225bc7f6f353
+      uses: aquasecurity/trivy-action@fc1500abdcdc9fc681e98d8912a52fa70dbc67de
       with:
         exit-code: '1'
         format: table
