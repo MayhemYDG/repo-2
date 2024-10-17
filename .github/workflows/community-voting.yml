@@ -257,7 +257,7 @@ jobs:
       run: gh issue comment ${{ github.event.issue.html_url }} --body "$ISSUE_BODY"
     - continue-on-error: true
       name: Upvote issue
-      uses: aidan-mundy/react-to-issue@b2a9194cf1ea483d633bc2834ed6c4c41c2a45f0
+      uses: aidan-mundy/react-to-issue@8eb8ab91acf5447eb85af5a3c51b23be1ac67d86
       with:
         issue-number: ${{ github.event.issue.number }}
         reactions: '+1'
@@ -520,7 +520,7 @@ jobs:
       run: gh issue comment ${{ github.event.issue.html_url }} --body "$ISSUE_BODY"
     - continue-on-error: true
       name: Upvote issue
-      uses: aidan-mundy/react-to-issue@b2a9194cf1ea483d633bc2834ed6c4c41c2a45f0
+      uses: aidan-mundy/react-to-issue@8eb8ab91acf5447eb85af5a3c51b23be1ac67d86
       with:
         issue-number: ${{ github.event.issue.number }}
         reactions: '+1'
