@@ -2,7 +2,7 @@ import java.util.Properties
 
 plugins {
     id("java-gradle-plugin")
-    id("com.gradle.plugin-publish")  version "1.2.1"
+    id("com.gradle.plugin-publish")  version "1.3.0"
     id("org.cyclonedx.bom") version "1.9.0"
     id("groovy")
 }
