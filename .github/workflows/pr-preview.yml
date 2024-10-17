@@ -610,7 +610,7 @@ jobs:
         == 'streamlit/streamlit' && github.event_name == 'pull_request' && github.event.sender.type
         == 'User'
       name: Set S3 URL as Github Status
-      uses: actions/github-script@v6
+      uses: actions/github-script@v7
       with:
         script: "const { sha } = context.payload.pull_request.head\n// For API documentation,\
           \ see:\n// https://docs.github.com/en/rest/commits/statuses?apiVersion=2022-11-28#create-a-commit-status\n\
