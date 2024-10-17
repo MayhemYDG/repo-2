@@ -18,7 +18,7 @@ edition = "2018"
 cfg-if = { version = "1.0" }
 # must stay at 0.3.x for Rust 1.41 compatibility
 indoc = { version = "0.3.6", optional = true }
-inventory = { version = "0.1.4", optional = true }
+inventory = { version = "0.3.15", optional = true }
 libc = "0.2.62"
 parking_lot = "0.11.0"
 num-bigint = { version = "0.4", optional = true }
