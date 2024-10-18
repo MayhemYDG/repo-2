@@ -1,6 +1,14 @@
 # Changelog
 
 
+## 5.1.0 (2024-10-18)
+
+- `Math`: Optimized gas cost of `ceilDiv` by using `unchecked`. ([#4553](https://github.com/OpenZeppelin/openzeppelin-contracts/pull/4553))
+- `Base64`: Add `encodeURL` following section 5 of RFC4648 for URL encoding ([#4822](https://github.com/OpenZeppelin/openzeppelin-contracts/pull/4822))
+- `AccessControlEnumerable`: Add a `getRoleMembers` method to return all accounts that have `role`. ([#4546](https://github.com/OpenZeppelin/openzeppelin-contracts/pull/4546))
+- `Checkpoints`: Optimized checkpoint access by removing redundant memory usage. ([#4540](https://github.com/OpenZeppelin/openzeppelin-contracts/pull/4540))
+- `TransparentUpgradeableProxy`: Make internal `_proxyAdmin()` getter have `view` visibility. ([#4688](https://github.com/OpenZeppelin/openzeppelin-contracts/pull/4688))
+
 ## 5.0.1 (2023-12-07)
 
 - `ERC2771Context` and `Context`: Introduce a `_contextPrefixLength()` getter, used to trim extra information appended to `msg.data`.
